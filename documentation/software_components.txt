@@ -1,0 +1,28 @@
+Actors:
+There are two actors interacting with the system:
+* Recruiter - The recruiter can create Jobs, and also list or delete the Jobs created by them.
+   Functionalities:
+       1. List Jobs
+       2. Create Job
+       3. Delete Job
+       4. Manage Job
+       5. Get reports
+       6. Search Candidates
+       7. Update Profile
+
+* Applicant - The applicant will be able to list/view the Jobs, apply for a Job and also delete the application
+   Functionalities:
+       1. Search Jobs
+       2. Apply for Job
+       3. Delete application for Job
+       4. Save/Like Job
+       5. Update Profile
+
+
+Models/Classes in the system:
+   1. Applicant - For the Applicant
+   2. Organization - The Organization/Employer for which the Job is being posted
+   3. Recruiter - Recruiter/HR (of any above mentioned Organization) who will post the Job
+   4. Jobs - For the posted Job
+   5. JobApplication - An intermediate class between the Applicant and JobPosting mainly because of a Many-To-Many relationship
+   6. Notification - A class/entity to send notification to the recruiter after an application is submitted
