@@ -1,9 +1,9 @@
+from django.http import HttpResponse
 from rest_framework import generics
 from rest_framework import mixins
 
 from recruiter.models import Recruiter
 from recruiter.serializers import RecruiterSerializer
-
 
 
 class RecruiterCollection(mixins.ListModelMixin,
@@ -36,3 +36,7 @@ class RecruiterMember(mixins.RetrieveModelMixin,
 
     def delete(self, request, *args, **kwargs):
         return self.destroy(request, *args, **kwargs)
+
+
+def index(request):
+    return HttpResponse("<h1 align=center> Welcome to Recruitment Portal System </h1>")
