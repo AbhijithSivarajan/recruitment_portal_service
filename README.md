@@ -19,15 +19,9 @@ Python3.6
 
     a. '/api/v1/applicants/'
 
-    b. '/api/v1/applicants/<<id>>'
+    b. '/api/v1/organizations/'
 
-    c. '/api/v1/organizations/'
-
-    d. '/api/v1/organizations/<<id>>'
-
-    e. '/api/v1/recruiters/'
-
-    f. '/api/v1/recruiters/<<id>>'
+    c. '/api/v1/recruiters/'
 
 
 # Technologies Used:
