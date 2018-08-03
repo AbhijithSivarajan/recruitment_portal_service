@@ -18,10 +18,15 @@ Python3.6
 7. Try out the following APIs:
 
     a. '/api/v1/applicants/'
+
     b. '/api/v1/applicants/<id>/'
+
     c. '/api/v1/organizations/'
+
     d. '/api/v1/organizations/<id>/'
+
     e. '/api/v1/recruiters/'
+
     f. '/api/v1/recruiters/<id>/'
 
 
