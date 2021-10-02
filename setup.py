@@ -9,8 +9,8 @@ setup(name='recruitment-portal-service',
       # your required eggs should go here. if your service depends on
       # any new eggs, they should be added in this list.
       install_requires=[
-          'djangorestframework==3.8.2',
-          'Django==2.0.7',
+          'djangorestframework',
+          'Django',
       ],
       entry_points={
           'console_scripts': []
